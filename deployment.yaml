@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: diamondappdeployment
-          image: 221082203884.dkr.ecr.us-east-1.amazonaws.com/paulimage:1.0
+          image: 221082203884.dkr.ecr.us-east-1.amazonaws.com/paulimage:1.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
